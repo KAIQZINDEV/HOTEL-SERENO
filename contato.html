@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hotel Sereno: projeto acadêmico de site de hotel com experiências, acomodações e contato.">
+  <title>Contato | Hotel Sereno</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+<header class="site-header"><div class="container header-inner">
+<a class="brand" href="index.html" aria-label="Hotel Sereno, página inicial"><span class="brand-mark">S</span><span>HOTEL SERENO<small>HOSPITALIDADE & BEM-ESTAR</small></span></a>
+<div class="nav-wrap"><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menu">☰ <span>Menu</span></button><nav aria-label="Navegação principal"><ul class="nav-list" id="primary-nav"><li><a href="index.html">Início</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="conteudo.html">Experiências</a></li><li><a href="explore.html">Explore</a></li><li><a href="contato.html" aria-current="page">Contato</a></li></ul></nav></div>
+</div></header>
+
+<main id="conteudo-principal">
+<section class="page-banner"><div class="container"><span class="eyebrow">Estamos por aqui</span><h1>Entre em contato</h1><p>Envie uma mensagem de demonstração ou consulte as perguntas frequentes sobre o funcionamento deste projeto.</p></div></section>
+<section class="section"><div class="container contact-grid">
+<aside class="contact-panel"><span class="eyebrow">Fale com o Sereno</span><h2>Vamos conversar?</h2><p>Este formulário serve para demonstrar validação em JavaScript. Nenhuma mensagem é enviada para um servidor.</p><p><strong>Projeto:</strong> site acadêmico fictício</p><p><strong>Atendimento:</strong> demonstração de interface</p><p><strong>E-mail:</strong> contato@hotelsereno.exemplo</p><p><a href="sobre.html">Saiba mais sobre o projeto →</a></p></aside>
+<form class="form-card" id="contact-form" novalidate>
+<h2>Formulário de contato</h2><p>Os campos com * são obrigatórios.</p>
+<div class="form-grid">
+<div class="field"><label for="nome">Nome *</label><input id="nome" name="nome" type="text" autocomplete="name" required aria-describedby="nome-error"><span class="field-error" id="nome-error"></span></div>
+<div class="field"><label for="email">E-mail *</label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error"><span class="field-error" id="email-error"></span></div>
+<div class="field field-full"><label for="assunto">Assunto *</label><input id="assunto" name="assunto" type="text" required aria-describedby="assunto-error"><span class="field-error" id="assunto-error"></span></div>
+<div class="field field-full"><label for="mensagem">Mensagem *</label><textarea id="mensagem" name="mensagem" required aria-describedby="mensagem-error"></textarea><span class="field-error" id="mensagem-error"></span></div>
+<div class="field field-full"><button class="btn" type="submit">Validar mensagem</button><p id="form-status" class="status-message" role="status" aria-live="polite"></p></div>
+</div>
+</form>
+</div></section>
+<section class="section section-soft"><div class="container"><div class="section-heading"><span class="eyebrow">Dúvidas comuns</span><h2>Perguntas frequentes</h2><p>Selecione uma pergunta para abrir ou fechar a resposta.</p></div>
+<div class="faq-list">
+<div class="faq-item"><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-1">O Hotel Sereno existe de verdade?<span class="faq-icon" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-1" hidden>Não. O Hotel Sereno é fictício e foi criado exclusivamente como tema de um projeto acadêmico de desenvolvimento web.</div></div>
+<div class="faq-item"><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-2">Posso fazer uma reserva pelo site?<span class="faq-icon" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-2" hidden>Não. O site não realiza reservas. Os textos e serviços apresentados são exemplos de conteúdo para demonstrar a estrutura de um site de hotel.</div></div>
+<div class="faq-item"><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-3">A mensagem do formulário é enviada?<span class="faq-icon" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-3" hidden>Não. O JavaScript verifica os campos e informa que os dados foram validados, mas não enviados. Para envio real seria necessário integrar um serviço ou servidor.</div></div>
+<div class="faq-item"><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-4">Como posso conhecer as experiências?<span class="faq-icon" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-4" hidden>Acesse a página Experiências para ler sobre os principais tópicos e a página Explore para pesquisar e filtrar cartões por categoria ou palavra.</div></div>
+</div></div></section>
+<section class="section"><div class="container"><h2>Fontes e créditos</h2><p>Os textos descritivos foram redigidos para fins acadêmicos. As ilustrações SVG da pasta <code>imagens</code> foram criadas para este projeto e não dependem de imagens externas. A identidade visual, os estilos e os scripts também fazem parte da implementação do grupo.</p></div></section>
+</main>
+
+<footer class="site-footer"><div class="container"><div class="footer-grid">
+<div><h2>Hotel Sereno</h2><p>Um projeto acadêmico que apresenta uma experiência de hospedagem acolhedora, conectada à natureza e ao conforto.</p></div>
+<div><h3>Navegue</h3><ul><li><a href="index.html">Página inicial</a></li><li><a href="sobre.html">Sobre o projeto</a></li><li><a href="conteudo.html">Experiências</a></li><li><a href="explore.html">Explore as opções</a></li><li><a href="contato.html">Contato e FAQ</a></li></ul></div>
+<div><h3>Informações</h3><p>Projeto fictício para fins educacionais. Não representa um hotel real e não realiza reservas.</p><p>Ilustrações autorais em SVG criadas para este projeto.</p></div>
+</div><div class="footer-bottom"><span>© 2026 Hotel Sereno — Projeto acadêmico.</span><span>Feito com HTML, CSS e JavaScript.</span></div></div></footer>
+</body>
+</html>

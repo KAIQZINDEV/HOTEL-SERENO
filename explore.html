@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hotel Sereno: projeto acadêmico de site de hotel com experiências, acomodações e contato.">
+  <title>Explore | Hotel Sereno</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+<header class="site-header"><div class="container header-inner">
+<a class="brand" href="index.html" aria-label="Hotel Sereno, página inicial"><span class="brand-mark">S</span><span>HOTEL SERENO<small>HOSPITALIDADE & BEM-ESTAR</small></span></a>
+<div class="nav-wrap"><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menu">☰ <span>Menu</span></button><nav aria-label="Navegação principal"><ul class="nav-list" id="primary-nav"><li><a href="index.html">Início</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="conteudo.html">Experiências</a></li><li><a href="explore.html" aria-current="page">Explore</a></li><li><a href="contato.html">Contato</a></li></ul></nav></div>
+</div></header>
+
+<main id="conteudo-principal">
+<section class="page-banner"><div class="container"><span class="eyebrow">Encontre seu momento</span><h1>Explore as experiências</h1><p>Use a busca ou selecione uma categoria para filtrar os cartões. O conteúdo é ilustrativo e faz parte do projeto acadêmico.</p></div></section>
+<section class="section"><div class="container">
+<form class="filter-bar" id="filter-form" role="search" aria-label="Filtrar experiências">
+<label class="field" for="search-input"><span>Buscar por palavra</span><input id="search-input" type="search" placeholder="Ex.: piscina, suíte, café"></label>
+<label class="field" for="category-select"><span>Categoria</span><select id="category-select"><option value="todos">Todas as categorias</option><option value="acomodacao">Acomodações</option><option value="lazer">Lazer</option><option value="gastronomia">Gastronomia</option><option value="bem-estar">Bem-estar</option><option value="destino">Destino</option></select></label>
+<button class="btn" type="submit">Filtrar</button><button class="btn btn-outline" type="button" id="clear-filters">Limpar filtros</button>
+</form>
+<p class="results-message" id="results-message" aria-live="polite"></p>
+<div class="card-grid" id="explore-grid">
+<article class="card explore-card" data-category="acomodacao"><img src="imagens/suite.svg" alt="Suíte confortável ilustrada"><div class="card-body"><span class="tag">Acomodações</span><h3>Suíte Sereno</h3><p>Um espaço acolhedor para descansar e aproveitar a estadia.</p></div></article>
+<article class="card explore-card" data-category="lazer"><img src="imagens/piscina.svg" alt="Piscina azul com deck de madeira ilustrado"><div class="card-body"><span class="tag">Lazer</span><h3>Piscina e deck</h3><p>Um convite para relaxar e aproveitar o tempo livre.</p></div></article>
+<article class="card explore-card" data-category="gastronomia"><img src="imagens/gastronomia.svg" alt="Prato preparado em mesa elegante ilustrada"><div class="card-body"><span class="tag">Gastronomia</span><h3>Restaurante</h3><p>Uma experiência gastronômica pensada para compartilhar.</p></div></article>
+<article class="card explore-card" data-category="bem-estar"><img src="imagens/spa.svg" alt="Ambiente tranquilo de spa com pedras e vela"><div class="card-body"><span class="tag">Bem-estar</span><h3>Espaço Serenidade</h3><p>Inspiração para um momento de autocuidado e tranquilidade.</p></div></article>
+<article class="card explore-card" data-category="destino"><img src="imagens/localizacao.svg" alt="Paisagem ilustrada com mar, montanhas e caminho"><div class="card-body"><span class="tag">Destino</span><h3>Natureza ao redor</h3><p>Paisagem costeira fictícia para inspirar uma pausa na rotina.</p></div></article>
+<article class="card explore-card" data-category="acomodacao"><img src="imagens/hotel-fachada.svg" alt="Fachada ilustrada do Hotel Sereno ao entardecer"><div class="card-body"><span class="tag">Acomodações</span><h3>Hospedagem Sereno</h3><p>Arquitetura contemporânea e atmosfera acolhedora.</p></div></article>
+<article class="card explore-card" data-category="gastronomia"><img src="imagens/gastronomia.svg" alt="Ilustração de refeição servida em um prato"><div class="card-body"><span class="tag">Gastronomia</span><h3>Café da manhã</h3><p>Comece o dia com uma refeição variada e sem pressa.</p></div></article>
+<article class="card explore-card" data-category="lazer"><img src="imagens/localizacao.svg" alt="Paisagem costeira para passeios tranquilos"><div class="card-body"><span class="tag">Lazer</span><h3>Passeios tranquilos</h3><p>Ideias de passeios ao ar livre e contato com a paisagem.</p></div></article>
+<article class="card explore-card" data-category="bem-estar"><img src="imagens/spa.svg" alt="Detalhe de ambiente de bem-estar com toalhas e vela"><div class="card-body"><span class="tag">Bem-estar</span><h3>Ritual de descanso</h3><p>Um conceito de ambiente para desacelerar e recarregar as energias.</p></div></article>
+</div>
+</div></section>
+</main>
+
+<footer class="site-footer"><div class="container"><div class="footer-grid">
+<div><h2>Hotel Sereno</h2><p>Um projeto acadêmico que apresenta uma experiência de hospedagem acolhedora, conectada à natureza e ao conforto.</p></div>
+<div><h3>Navegue</h3><ul><li><a href="index.html">Página inicial</a></li><li><a href="sobre.html">Sobre o projeto</a></li><li><a href="conteudo.html">Experiências</a></li><li><a href="explore.html">Explore as opções</a></li><li><a href="contato.html">Contato e FAQ</a></li></ul></div>
+<div><h3>Informações</h3><p>Projeto fictício para fins educacionais. Não representa um hotel real e não realiza reservas.</p><p>Ilustrações autorais em SVG criadas para este projeto.</p></div>
+</div><div class="footer-bottom"><span>© 2026 Hotel Sereno — Projeto acadêmico.</span><span>Feito com HTML, CSS e JavaScript.</span></div></div></footer>
+</body>
+</html>
