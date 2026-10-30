@@ -1,1 +1,174 @@
-# HOTEL-SERENO
+# 🏨 Hotel Sereno — Projeto Acadêmico
+
+**Site demonstrativo de hotelaria desenvolvido com HTML5, CSS3 e JavaScript.**
+
+O Hotel Sereno é um projeto acadêmico de um hotel fictício, desenvolvido com o objetivo de demonstrar a criação de um site com múltiplas páginas, identidade visual padronizada, layout responsivo e funcionalidades interativas.
+
+O projeto foi desenvolvido para a **Universidade Cruzeiro do Sul — Campus São Miguel, São Paulo/SP**.
+
+---
+
+## 📌 Sobre o Projeto
+
+O site apresenta informações institucionais, conteúdos relacionados à hotelaria, cartões interativos e um formulário de contato demonstrativo.
+
+A proposta é aplicar os conhecimentos de desenvolvimento web, organização de arquivos, estilização de interfaces e programação com JavaScript.
+
+### 🎯 Objetivos
+
+- Desenvolver um site com cinco páginas HTML distintas.
+- Criar uma identidade visual consistente em todas as páginas.
+- Implementar um layout responsivo para diferentes tamanhos de tela.
+- Utilizar JavaScript para adicionar interatividade.
+- Desenvolver um formulário com validação no navegador.
+- Organizar o projeto seguindo boas práticas de desenvolvimento web.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Aplicação |
+|---|---|
+| HTML5 | Estrutura e organização das páginas. |
+| CSS3 | Estilização, cores, tipografia e layout responsivo. |
+| JavaScript | Interatividade e funcionalidades do site. |
+| CSS Grid | Organização de elementos em grades. |
+| Flexbox | Alinhamento e distribuição dos elementos. |
+| Media Queries | Adaptação do layout para diferentes telas. |
+| SVG | Ilustrações criadas para o projeto. |
+| Google Fonts | Tipografia DM Sans e Playfair Display, quando houver conexão com a internet. |
+
+---
+
+## 📂 Estrutura de Pastas
+
+```text
+hotel_sereno/
+│
+├── index.html
+├── sobre.html
+├── conteudo.html
+├── explore.html
+├── contato.html
+├── README.md
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+└── imagens/
+    └── arquivos SVG do projeto
+```
+
+### 📄 Descrição dos Arquivos
+
+| Arquivo | Descrição |
+|---|---|
+| `index.html` | Página inicial do Hotel Sereno. |
+| `sobre.html` | Apresenta o objetivo, a justificativa, o público-alvo e os integrantes do grupo. |
+| `conteudo.html` | Apresenta conteúdos organizados em três tópicos e uma lista. |
+| `explore.html` | Exibe cartões interativos com filtros por categoria e palavra-chave. |
+| `contato.html` | Contém um formulário com validação no navegador e uma seção de perguntas frequentes. |
+| `css/style.css` | Centraliza os estilos e define o layout responsivo. |
+| `js/script.js` | Implementa o menu responsivo, os filtros, a validação do formulário e o funcionamento do FAQ. |
+| `imagens/` | Armazena as ilustrações SVG utilizadas no projeto. |
+
+---
+
+## ✨ Funcionalidades
+
+### 🏠 Página Inicial
+Apresenta o Hotel Sereno e sua identidade visual, funcionando como ponto de entrada para a navegação do site.
+
+### 👥 Sobre o Projeto
+Apresenta a proposta acadêmica, a justificativa, o público-alvo e os integrantes responsáveis pelo desenvolvimento.
+
+### 📚 Conteúdo
+Organiza informações em três tópicos e uma lista, demonstrando a estruturação de conteúdo com HTML.
+
+### 🔎 Explore
+Disponibiliza cartões informativos e filtros que permitem encontrar conteúdos por categoria ou palavra-chave.
+
+### ✉️ Contato
+Inclui um formulário com validação de campos no próprio navegador e uma seção de perguntas frequentes (FAQ).
+
+### 📱 Design Responsivo
+O CSS utiliza Grid, Flexbox e Media Queries para adaptar a apresentação do site a diferentes resoluções de tela.
+
+---
+
+## 👨‍💻 Integrantes do Grupo
+
+| Integrante | Função |
+|---|---|
+| **Kaique Dias** | Desenvolvedor / Analista |
+| **Jean Kevin** | Desenvolvedor |
+| **Giovanna Ayumi** | Analista |
+
+**Instituição:** Universidade Cruzeiro do Sul  
+**Campus:** São Miguel — São Paulo/SP
+
+---
+
+## 🚀 Como Executar o Projeto
+
+O site é estático e pode ser executado localmente, sem instalação de dependências ou configuração de servidor.
+
+1. Baixe ou extraia a pasta compactada do projeto.
+2. Abra a pasta `hotel_sereno`.
+3. Localize o arquivo `index.html`.
+4. Abra o arquivo com um navegador, como Google Chrome, Microsoft Edge ou Mozilla Firefox.
+5. Utilize o menu de navegação para acessar as demais páginas.
+
+**Importante:** mantenha a estrutura de pastas original para garantir que os arquivos CSS, JavaScript e as ilustrações sejam carregados corretamente.
+
+---
+
+## ⚙️ Requisitos para Execução
+
+- Computador com Windows, Linux ou macOS.
+- Navegador atualizado.
+- Arquivos do projeto extraídos corretamente.
+
+Não é necessário instalar Node.js, banco de dados ou outras dependências para visualizar o site.
+
+---
+
+## ⚠️ Observações Importantes
+
+- O Hotel Sereno é fictício e foi criado exclusivamente para fins acadêmicos.
+- O site não realiza reservas reais.
+- O formulário de contato é demonstrativo: valida os dados no navegador, mas não envia mensagens para um servidor.
+- As ilustrações SVG foram criadas para este projeto, sem utilização de imagens externas que exijam atribuição.
+- As fontes DM Sans e Playfair Display podem depender de conexão com a internet. Caso não estejam disponíveis, serão utilizadas fontes alternativas.
+- Antes da entrega acadêmica, recomenda-se verificar se a instituição exige nomes completos, matrícula, identificação da disciplina, nome do professor ou outras informações.
+
+---
+
+## 🎓 Finalidade Acadêmica
+
+Este projeto tem como finalidade demonstrar a aplicação prática de conceitos fundamentais do desenvolvimento front-end, incluindo:
+
+- Estruturação semântica com HTML5.
+- Estilização e responsividade com CSS3.
+- Manipulação de elementos e eventos com JavaScript.
+- Organização de arquivos e diretórios.
+- Criação de interfaces com navegação entre páginas.
+- Validação de formulários no navegador.
+- Desenvolvimento de componentes interativos.
+
+---
+
+## 📜 Licença e Uso
+
+Projeto desenvolvido para fins educacionais no contexto acadêmico da Universidade Cruzeiro do Sul.
+
+O Hotel Sereno é uma marca fictícia criada para a apresentação do trabalho.
+
+---
+
+**Hotel Sereno — Conforto, tranquilidade e uma experiência digital.**
+
+*Projeto acadêmico | HTML5 • CSS3 • JavaScript*
